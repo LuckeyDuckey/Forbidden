@@ -1,0 +1,11 @@
+{
+    "SceneResolution": [640, 360],
+    "ScreenResolution": [1280, 720],
+    "FullScreen": false,
+
+    "SoundsVolume": 1.0,
+    "MusicVolume": 1.0,
+
+    "ShowDebug": true,
+    "FpsCap": 144
+}
