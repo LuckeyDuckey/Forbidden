@@ -91,5 +91,7 @@ class SceneModernGL(GameObject):
         self.BackgroundTexture.release()
         self.MidgroundTexture.release()
         self.ForegroundTexture.release()
+        self.MenusTexture.release()
         self.SceneTexture.release()
         self.SceneFrameBuffer.release()
+
