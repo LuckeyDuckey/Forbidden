@@ -32,7 +32,6 @@ class FishSimulationManager(GameObject):
 
     def Render(self):
         for Boid in self.Boids:
-            # Boids are unstable with variable delta time values
             Boid.Update(self.Boids, self.Game.DeltaTime, self.Game.Mouse.Clicking, self.Game.Mouse.WorldPosition, self.Game.Mouse.AnimatedRadius)
 
             if Boid.Direction.x < 0:
@@ -48,3 +47,4 @@ class FishSimulationManager(GameObject):
                 source = RenderImage,
                 dest = RenderPosition - self.Game.PygameScene.PixelOffset,
             )
+
