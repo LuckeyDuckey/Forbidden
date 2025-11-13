@@ -19,7 +19,7 @@ To run Forbidden simply follow these steps (you’ll need Python 3.8 or newer):
    pip install moderngl pygame-ce numpy
    ```
 
-5. Run the program:
+3. Run the program:
    ```bash
    cd Forbidden
    python Main.py
